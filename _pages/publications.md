@@ -8,7 +8,7 @@ author_profile: true
 {% assign categories = site.publications | map: "category" | uniq %}
 
 {% for cat in categories %}
-  <h1>{{ cat }}</h1>
+  <h2>{{ cat }}</h2>
   {% for post in site.publications reversed %}
     {% if post.category == cat %}
       {% include archive-single.html %}

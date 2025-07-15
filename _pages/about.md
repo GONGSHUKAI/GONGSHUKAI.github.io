@@ -19,9 +19,9 @@ Currently, I'm working on high-fidelity text-to-sounding movie generation.
 
 🔥 News
 -----
- 🗓️ **May 2025**: A paper has been submitted to **NeurIPS 2025**! Good luck!
+ 🗓️ **May 2025**: Check out my latest work [*TPP-SD: Accelerating Transformer Point Process Sampling with Speculative Decoding*](https://arxiv.org/abs/2507.09252) !
 
- 🗓️ **Jan 2025**: *USPTO-LLM: A Large Language Model-Assisted Information-enriched Chemical Reaction Dataset* has been accepted by **WWW 2025** resource track!
+ 🗓️ **Jan 2025**: [*USPTO-LLM: A Large Language Model-Assisted Information-enriched Chemical Reaction Dataset*](https://dl.acm.org/doi/10.1145/3701716.3715295) has been accepted by **WWW 2025** resource track!
 
 🥇 Awards
 ----

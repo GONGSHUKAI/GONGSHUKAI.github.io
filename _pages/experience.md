@@ -8,6 +8,14 @@ redirect_from:
 ---
 # 🔬 Research Experience
 
+## School of Electronic and Computer Engineering, Peking University, Research Intern
+2025.06.17 - Present
+
+Supervisor: [Prof. Daquan Zhou](https://zhoudaquan.github.io/homepage.io/index.html)
+
+Projects:
+- **Text-to-Sounding Movie Generation**: Developing a high-fidelity text-to-sounding movie generation model that generates synchronized visual and auditory content from textual descriptions. 
+
 ## School of Statistics, Renmin University of China, Research Intern 
 2025.02.11 – 2025.05.16
 
@@ -26,6 +34,11 @@ Projects:
 
 
 # 💼 Industry Experience
+
+## AISphere, Algorithm Engineer Intern
+2025.07.28 - Present
+- Working on text-to-sounding movie generation models, focusing on enhancing the synchronization and quality of generated audiovisual content.
+
 
 ## Intuitive Fosun, R&D Intern
 

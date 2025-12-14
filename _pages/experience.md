@@ -14,7 +14,7 @@ redirect_from:
 Supervisor: [Prof. Daquan Zhou](https://zhoudaquan.github.io/homepage.io/index.html)
 
 Projects:
-- **Text-to-Sounding Movie Generation**: Developing a high-fidelity text-to-sounding movie generation model that generates synchronized visual and auditory content from textual descriptions. 
+- **Few-step distillation of text-to-video-audio generation**: Conducted fewstep distribution matching distillation on SOTA text-to-video-audio generation model.
 
 ## School of Statistics, Renmin University of China, Research Intern 
 2025.02.11 – 2025.05.16
@@ -37,11 +37,10 @@ Projects:
 
 ## AISphere, Algorithm Engineer Intern
 2025.07.28 - Present
-- Working on text-to-sounding movie generation models, focusing on enhancing the synchronization and quality of generated audiovisual content.
+- Trained a 4-step distilled version of SOTA text-to-audio-video generation models with distribution matching distillation. Working on streaming text-to-audio-video generation model.
 
 
 ## Intuitive Fosun, R&D Intern
-
 2025.01.15 – 2025.02.15
 - Leveraged OCR to extract high-frequency operating parameters from the transducer screen of the daVinci surgical robot. Processed video frames using OpenCV to minimize noise from parameter fluctuations, achieving an OCR accuracy of 99%.
 

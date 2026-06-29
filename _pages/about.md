@@ -17,12 +17,13 @@ redirect_from:
 
 <span class='anchor' id='about-me'></span>
 
+# About me
 
-My name is Shukai Gong (龚舒凯). I received my B.S. degree from Renmin University of China in 2026, where I was fortunate to be advised by [Prof. Hongteng Xu](https://hongtengxu.github.io) and [Prof. Feng Zhou](http://zhoufeng6288.github.io). I will begin my MPhil in **Computer Science** at Peking University in Fall 2026, advised by [Prof. Daquan Zhou](https://zhoudaquan.github.io/homepage.io/index.html).
+My name is Shukai Gong (龚舒凯). I received my B.S. degree from Renmin University of China in 2026, where I was fortunate to be advised by [Prof. Hongteng Xu](https://hongtengxu.github.io) and [Prof. Feng Zhou](http://zhoufeng6288.github.io). I'll begin my MPhil in **Computer Science** at Peking University in Fall 2026, advised by [Prof. Daquan Zhou](https://zhoudaquan.github.io/homepage.io/index.html).
 
 My current research interest lies in **AIGC and Embodied AI**. For potential collaboration, please feel free to reach out to me via gongshukai0511[at]gmail.com
 
-# 🔥 News
+# News
 
 - **2026.05**: [*StableVLA*](https://arxiv.org/abs/2507.09252) has been accepted by **ICML 2026**.
 
@@ -30,7 +31,7 @@ My current research interest lies in **AIGC and Embodied AI**. For potential col
 
 - **2025.01**: [*USPTO-LLM*](https://dl.acm.org/doi/10.1145/3701716.3715295) has been accepted by **WWW 2025**.
 
-# 📝 Publications
+# Publications
 
 <div class='paper-box'><div class='paper-box-image'><div><div class="badge">Tech Report</div><img src='images/humanscale.jpg' alt="paper thumbnail" width="100%"></div></div>
 <div class='paper-box-text' markdown="1">
@@ -39,7 +40,7 @@ My current research interest lies in **AIGC and Embodied AI**. For potential col
 
 Juncheng Ma\*, Jianxin Bi\*, Yufan Deng, Xuanran Zhai, Kewei Zhang, Ye Huang, Bo Liang, **Shukai Gong**, Jiankai Tu, Xiaotian Tang, Jiaxin Li, Kaiqi Chen, Duomin Wang, Yuqi Wang, Bingyi Kang, Eric Huang, Zhiyang Dou, Zhen Dong, Enze Xie, Wojciech Matusik, Tat-Seng Chua, Daquan Zhou
 
-<span style="font-size:0.85em">(\* Equal contribution)</span>
+<span style="font-size:0.85em">(\* stands for equal contribution)</span>
 
 [**Paper**](https://arxiv.org/abs/2606.20521) \| [**Code**](https://github.com/DAGroup-PKU/HumanNet/)
 
@@ -57,8 +58,7 @@ Yiyang Fu, Chubin Zhang, **Shukai Gong**, Yufan Deng, Kaiwei Sun, Qiyang Min, Qi
 
 [**Paper**](https://arxiv.org/abs/2605.18287) \| [**Code**](https://github.com/DAGroup-PKU/HumanNet/blob/main/docs/stablevla.md)
 
-We propose a lightweight adapter module grounded in information theory, termed the Information Bottleneck Adapter (IB-Adapter), which selectively filters potential noise from visual inputs. Without requiring any extra data or augmentation strategies, IB-Adapter consistently improves over the baseline by an average of 30%, while adding fewer than 10M parameters, demonstrating notable efficiency and effectiveness.
-
+We propose a lightweight adapter module for VLA, IB-Adapter, which selectively filters potential noise from visual inputs. Without requiring any extra data or augmentation strategies, IB-Adapter consistently improves the robostness of VLA, while adding fewer than 10M parameters.
 </div>
 </div>
 
@@ -69,7 +69,7 @@ We propose a lightweight adapter module grounded in information theory, termed t
 
 **Shukai Gong**\*, Yiyang Fu\*, Fengyuan Ran\*, Quyu Kong, Feng Zhou†
 
-<span style="font-size:0.85em">(\* Equal contribution)</span>
+<span style="font-size:0.85em">(\* stands for equal contribution)</span>
 
 [**Paper**](https://arxiv.org/pdf/2507.09252) \| [**Code**](https://github.com/GONGSHUKAI/tppsd)
 
@@ -86,6 +86,8 @@ TPP-SD, which maintains the identical output distribution as autoregressive samp
 
 Shen Yuan\*, **Shukai Gong**\*, Hongteng Xu†
 
+<span style="font-size:0.85em">(\* stands for equal contribution)</span>
+
 [**Paper**](https://dl.acm.org/doi/10.1145/3701716.3715295) \| [**Dataset**](https://zenodo.org/records/14396156)
 
 we construct an information-enriched chemical reaction dataset called USPTO-LLM, which comprises over 247K chemical reactions extracted from the patent documents of USPTO encompassing abundant information on reaction conditions. Experiments show that USPTO-LLM helps pre-train the existing retrosynthesis methods and the condition information in the dataset helps improve the model performance.
@@ -93,7 +95,7 @@ we construct an information-enriched chemical reaction dataset called USPTO-LLM,
 </div>
 </div>
 
-# 💻 Experiences
+# Experiences
 
 <div class='paper-box'><div class='paper-box-image' style="text-align: center;"><div><div class="badge"></div><img src='images/bytedance.jpg' alt="sym" style="display: inline-block; width: 80%;"></div></div>
 <div class='paper-box-text' markdown="1">
@@ -115,7 +117,7 @@ Research on the acceleration and long-video adaption of visual-audio joint gener
 </div>
 </div>
 
-# 🎖 Honors and Awards
+# Honors and Awards
 
 - *2025*, Jing Dong Future Scholar, Renmin University of China (¥10000 CNY). 
 
@@ -123,10 +125,10 @@ Research on the acceleration and long-video adaption of visual-audio joint gener
 
 - *2024*, The Jing Dong Premium Scholarship, Renmin University of China (¥10000 CNY). 
 
-# 📖 Educations
+# Educations
 
 - *2026.09 - present*, MPhil in Computer Science, Peking University. 
 
-- *2022.09 - 2026.06*, B.S in Data Science and Economics, Renmin University of China
+- *2022.09 - 2026.06*, B.S in Data Science and Economics, Renmin University of China.
 
 

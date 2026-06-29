@@ -1,6 +1,12 @@
 # Ignore the contents of the _site directory
 _site/
 
+# Ignore timestamped template migration backups
+.template-backup-academicpages-*/
+
+# Ignore macOS Finder metadata
+.DS_Store
+
 # Ignore the directory for local files during development
 local/
 

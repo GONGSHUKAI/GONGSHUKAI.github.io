@@ -117,8 +117,6 @@ Research on the acceleration and long-video adaption of visual-audio joint gener
 
 # 🎖 Honors and Awards
 
-- Placeholder honor or award.
-
 - *2025*, Jing Dong Future Scholar, Renmin University of China (¥10000 CNY). 
 
 - *2025*, The ICBC Award for Outstanding Student in Integrated Innovation (¥10000 CNY). 

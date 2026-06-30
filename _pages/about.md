@@ -19,7 +19,7 @@ redirect_from:
 
 # About me
 
-My name is Shukai Gong (龚舒凯). I received my B.S. degree from Renmin University of China in 2026, where I was fortunate to be advised by [Prof. Hongteng Xu](https://hongtengxu.github.io) and [Prof. Feng Zhou](http://zhoufeng6288.github.io). I'll begin my MPhil in **Computer Science** at Peking University in Fall 2026, advised by [Prof. Daquan Zhou](https://zhoudaquan.github.io/homepage.io/index.html).
+My name is Shukai Gong (龚舒凯). I received my B.S. in Data Science from Renmin University of China in 2026, where I was advised by [Prof. Hongteng Xu](https://hongtengxu.github.io) and [Prof. Feng Zhou](http://zhoufeng6288.github.io). I'll begin my MPhil in **Computer Science** at Peking University in Fall 2026, advised by [Prof. Daquan Zhou](https://zhoudaquan.github.io/homepage.io/index.html).
 
 My current research interest lies in **AIGC and Embodied AI**. For potential collaboration, please feel free to reach out to me via gongshukai0511[at]gmail.com
 

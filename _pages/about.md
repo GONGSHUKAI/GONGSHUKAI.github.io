@@ -114,7 +114,7 @@ we construct an information-enriched chemical reaction dataset called USPTO-LLM,
 <div class='paper-box'><div class='paper-box-image' style="text-align: center;"><div><div class="badge"></div><img src='images/bytedance.jpg' alt="sym" style="display: inline-block; width: 80%;"></div></div>
 <div class='paper-box-text' markdown="1">
 
-**Research Intern, Bytedance Seed, Beijing, 2026.04 - present**
+**Research Intern, Bytedance Seed, Beijing, 2026.04 - 2026.07**
 
 Research on physical video generation and embodied AI.
 

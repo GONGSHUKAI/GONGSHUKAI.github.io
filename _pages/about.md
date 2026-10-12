@@ -19,11 +19,13 @@ redirect_from:
 
 # About me
 
-My name is Shukai Gong (龚舒凯). I received my B.S. in Data Science from Renmin University of China in 2026, where I was advised by [Prof. Hongteng Xu](https://hongtengxu.github.io) and [Prof. Feng Zhou](http://zhoufeng6288.github.io). I'll begin my MPhil (PhD Track) in **Computer Science** at Peking University in Fall 2026, advised by [Prof. Daquan Zhou](https://zhoudaquan.github.io/homepage.io/index.html).
+My name is Shukai Gong (龚舒凯). I'm a first-year MPhil student in Computer Science at Peking University, advised by [Prof. Daquan Zhou](https://zhoudaquan.github.io/homepage.io/index.html). Previously, I received my B.S. in Data Science from Renmin University of China in 2026, where I was advised by [Prof. Hongteng Xu](https://hongtengxu.github.io) and [Prof. Feng Zhou](http://zhoufeng6288.github.io).
 
-My current research interest lies in **AIGC and Embodied AI**. For potential collaboration, please feel free to reach out to me via gongshukai0511[at]gmail.com
+My current research interests lie in **Robotics and Video Generation**. For potential collaboration, please feel free to reach out to me at gongshukai26[at]stu.pku.edu.cn.
 
 # News
+
+- **2026.10**: [*ViGAR*](https://arxiv.org/abs/2610.02368) is fully open-sourced and is released on arXiv.
 
 - **2026.05**: [*StableVLA*](https://arxiv.org/abs/2507.09252) has been accepted by **ICML 2026**.
 
@@ -32,6 +34,20 @@ My current research interest lies in **AIGC and Embodied AI**. For potential col
 - **2025.01**: [*USPTO-LLM*](https://dl.acm.org/doi/10.1145/3701716.3715295) has been accepted by **WWW 2025**.
 
 # Publications
+
+<div class='paper-box'><div class='paper-box-image'><div><div class="badge">Preprint</div><img src='images/vigar.jpg' alt="paper thumbnail" width="100%"></div></div>
+<div class='paper-box-text' markdown="1">
+
+**[Rethinking World-Action Model for Compositional and In-Context Robotic Manipulation](https://arxiv.org/abs/2610.02368)**
+
+**Shukai Gong**, Xuanran Zhai, Yintianrun Zhang, Ruopeng Cui, Ye Huang, Yiyang Fu, Dexuan Lyu, Chaojie Li, Xinyi Song, Peiwen Lin, Chuang Wang, Mingyuan Jia, Yufan Deng, Jiaxin Fang, Bo Liang, Jiaxin Li, Yuxiang Gao, Hao Liu, Daquan Zhou
+
+[**Paper**](https://arxiv.org/abs/2610.02368) \| [**Code**](https://github.com/DAGroup-PKU/ViGAR) \| [**Model**](https://huggingface.co/DAGroup-PKU/ViGAR) \| [**Project Page**](https://dagroup-pku.github.io/ViGAR/)
+
+We propose ViGAR, a hierarchical world-action model that factorizes long-horizon manipulation into visual subgoal planning and subgoal execution on a shared pretrained world model. ViGAR achieves strong compositional manipulation in both simulation and the real world, and generalizes to unseen tasks via in-context steering with a goal image, without any policy parameter updates.
+
+</div>
+</div>
 
 <div class='paper-box'><div class='paper-box-image'><div><div class="badge">Tech Report</div><img src='images/humanscale.jpg' alt="paper thumbnail" width="100%"></div></div>
 <div class='paper-box-text' markdown="1">
@@ -54,7 +70,7 @@ With a carefully designed filtering and labeling pipeline, we show that egocentr
 
 **StableVLA: Towards Robust Vision-Language-Action Models without Extra Data**
 
-Yiyang Fu, Chubin Zhang, **Shukai Gong**, Yufan Deng, Kaiwei Sun, Qiyang Min, Qibin Hou, Yansong Tang, Jianan Wang3†, Daquan Zhou1††
+Yiyang Fu, Chubin Zhang, **Shukai Gong**, Yufan Deng, Kaiwei Sun, Qiyang Min, Qibin Hou, Yansong Tang, Jianan Wang3†, Daquan Zhou1†
 
 [**Paper**](https://arxiv.org/abs/2605.18287) \| [**Code**](https://github.com/DAGroup-PKU/HumanNet/blob/main/docs/stablevla.md)
 

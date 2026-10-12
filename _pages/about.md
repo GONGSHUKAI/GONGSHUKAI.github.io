@@ -38,7 +38,7 @@ My name is Shukai Gong (龚舒凯). I'm a first-year MPhil student in Computer S
 
 **[Rethinking World-Action Model for Compositional and In-Context Robotic Manipulation](https://arxiv.org/abs/2610.02368)**
 
-**Shukai Gong**, Xuanran Zhai, Yintianrun Zhang, Ruopeng Cui, Ye Huang, Yiyang Fu, Dexuan Lyu, Chaojie Li, Xinyi Song, Peiwen Lin, Chuang Wang, Mingyuan Jia, Yufan Deng, Jiaxin Fang, Bo Liang, Jiaxin Li, Yuxiang Gao, Hao Liu, Daquan Zhou
+**Shukai Gong**\*, Xuanran Zhai\*, Yintianrun Zhang\*, Ruopeng Cui, Ye Huang, Yiyang Fu, Dexuan Lyu, Chaojie Li, Xinyi Song, Peiwen Lin, Chuang Wang, Mingyuan Jia, Yufan Deng, Jiaxin Fang, Bo Liang, Jiaxin Li, Yuxiang Gao, Hao Liu, Daquan Zhou
 
 [**Paper**](https://arxiv.org/abs/2610.02368) \| [**Code**](https://github.com/DAGroup-PKU/ViGAR) \| [**Model**](https://huggingface.co/DAGroup-PKU/ViGAR) \| [**Project Page**](https://dagroup-pku.github.io/ViGAR/)
 

@@ -33,7 +33,7 @@ My name is Shukai Gong (龚舒凯). I'm a first-year MPhil student in Computer S
 
 # Publications
 
-<div class='paper-box'><div class='paper-box-image'><div><div class="badge">Preprint</div><img src='images/vigar.jpg' alt="paper thumbnail" width="100%"></div></div>
+<div class='paper-box'><div class='paper-box-image'><div><div class="badge">Tech Report</div><img src='images/vigar.jpg' alt="paper thumbnail" width="100%"></div></div>
 <div class='paper-box-text' markdown="1">
 
 **[Rethinking World-Action Model for Compositional and In-Context Robotic Manipulation](https://arxiv.org/abs/2610.02368)**
@@ -47,7 +47,7 @@ We propose ViGAR, a hierarchical world-action model that factorizes long-horizon
 </div>
 </div>
 
-<div class='paper-box'><div class='paper-box-image'><div><div class="badge">Tech Report</div><img src='images/humanscale.jpg' alt="paper thumbnail" width="100%"></div></div>
+<div class='paper-box'><div class='paper-box-image'><div><div class="badge">ICML 2026</div><img src='images/stablevla.png' alt="sym" width="100%"></div></div>
 <div class='paper-box-text' markdown="1">
 
 **StableVLA: Towards Robust Vision-Language-Action Models without Extra Data**
@@ -60,7 +60,7 @@ We propose a lightweight adapter module for VLA, IB-Adapter, which selectively f
 </div>
 </div>
 
-<div class='paper-box'><div class='paper-box-image'><div><div class="badge">NeurIPS 2025</div><img src='images/tppsd.png' alt="sym" width="100%"></div></div>
+<div class='paper-box'><div class='paper-box-image'><div><div class="badge">Tech Report</div><img src='images/humanscale.jpg' alt="paper thumbnail" width="100%"></div></div>
 <div class='paper-box-text' markdown="1">
 
 **[HumanScale: Egocentric Human Video Can Outperform Real-Robot Data for Embodied Pretraining](https://arxiv.org/abs/2606.20521)**
@@ -76,7 +76,7 @@ With a carefully designed filtering and labeling pipeline, we show that egocentr
 </div>
 </div>
 
-<div class='paper-box'><div class='paper-box-image'><div><div class="badge">ICML 2026</div><img src='images/stablevla.png' alt="sym" width="100%"></div></div>
+<div class='paper-box'><div class='paper-box-image'><div><div class="badge">NeurIPS 2025</div><img src='images/tppsd.png' alt="sym" width="100%"></div></div>
 <div class='paper-box-text' markdown="1">
 
 **TPP-SD: Accelerating Transformer Point Process Sampling with Speculative Decoding**

@@ -25,7 +25,7 @@ My name is Shukai Gong (龚舒凯). I'm a first-year MPhil student in Computer S
 
 - **2026.10**: [*ViGAR*](https://arxiv.org/abs/2610.02368) is fully open-sourced and is released on arXiv.
 
-- **2026.05**: [*StableVLA*](https://arxiv.org/abs/2507.09252) has been accepted by **ICML 2026**.
+- **2026.05**: [*StableVLA*](https://arxiv.org/abs/2605.18287) has been accepted by **ICML 2026**.
 
 - **2025.09**: [*TPP-SD*](https://arxiv.org/abs/2507.09252) has been accepted by **NeurIPS 2025**.
 
@@ -33,12 +33,16 @@ My name is Shukai Gong (龚舒凯). I'm a first-year MPhil student in Computer S
 
 # Publications
 
+## Robotics
+
 <div class='paper-box'><div class='paper-box-image'><div><div class="badge">Tech Report</div><img src='images/vigar.jpg' alt="paper thumbnail" width="100%"></div></div>
 <div class='paper-box-text' markdown="1">
 
 **[Rethinking World-Action Model for Compositional and In-Context Robotic Manipulation](https://arxiv.org/abs/2610.02368)**
 
-**Shukai Gong**\*, Xuanran Zhai\*, Yintianrun Zhang\*, Ruopeng Cui, Ye Huang, Yiyang Fu, Dexuan Lyu, Chaojie Li, Xinyi Song, Peiwen Lin, Chuang Wang, Mingyuan Jia, Yufan Deng, Jiaxin Fang, Bo Liang, Jiaxin Li, Yuxiang Gao, Hao Liu, Daquan Zhou
+**Shukai Gong**\*, Xuanran Zhai\*, Yintianrun Zhang\*, Ruopeng Cui, Ye Huang, Yiyang Fu, Dexuan Lyu, Chaojie Li, Xinyi Song, Peiwen Lin, Chuang Wang, Mingyuan Jia, Yufan Deng, Jiaxin Fang, Bo Liang, Jiaxin Li, Yuxiang Gao†, Hao Liu†, Daquan Zhou†
+
+<span style="font-size:0.85em">(\* stands for equal contribution, † stands for corresponding author)</span>
 
 [**Paper**](https://arxiv.org/abs/2610.02368) \| [**Code**](https://github.com/DAGroup-PKU/ViGAR) \| [**Model**](https://huggingface.co/DAGroup-PKU/ViGAR) \| [**Project Page**](https://dagroup-pku.github.io/ViGAR/)
 
@@ -52,7 +56,9 @@ We propose ViGAR, a hierarchical world-action model that factorizes long-horizon
 
 **StableVLA: Towards Robust Vision-Language-Action Models without Extra Data**
 
-Yiyang Fu, Chubin Zhang, **Shukai Gong**, Yufan Deng, Kaiwei Sun, Qiyang Min, Qibin Hou, Yansong Tang, Jianan Wang†, Daquan Zhou†
+Yiyang Fu, Chubin Zhang, **Shukai Gong**, Yufan Deng, Kaiwei Sun, Qiyang Min, Qibin Hou, Yansong Tang, Jianan Wang‡, Daquan Zhou†
+
+<span style="font-size:0.85em">(‡ stands for project leader, † stands for corresponding author)</span>
 
 [**Paper**](https://arxiv.org/abs/2605.18287) \| [**Code**](https://github.com/DAGroup-PKU/HumanNet/blob/main/docs/stablevla.md) \| [**Model**](https://huggingface.co/DAGroup-PKU/StableVLA) \| [**Project Page**](https://dagroup-pku.github.io/StableVLA/)
 
@@ -65,13 +71,31 @@ We propose a lightweight adapter module for VLA, IB-Adapter, which selectively f
 
 **[HumanScale: Egocentric Human Video Can Outperform Real-Robot Data for Embodied Pretraining](https://arxiv.org/abs/2606.20521)**
 
-Juncheng Ma\*, Jianxin Bi\*, Yufan Deng, Xuanran Zhai, Kewei Zhang, Ye Huang, Bo Liang, **Shukai Gong**, Jiankai Tu, Xiaotian Tang, Jiaxin Li, Kaiqi Chen, Duomin Wang, Yuqi Wang, Bingyi Kang, Eric Huang, Zhiyang Dou, Zhen Dong, Enze Xie, Wojciech Matusik, Tat-Seng Chua, Daquan Zhou
+Juncheng Ma\*, Jianxin Bi\*, Yufan Deng, Xuanran Zhai, Kewei Zhang, Ye Huang, Bo Liang, **Shukai Gong**, Jiankai Tu, Xiaotian Tang, Jiaxin Li, Kaiqi Chen, Duomin Wang, Yuqi Wang, Bingyi Kang, Eric Huang, Zhiyang Dou, Zhen Dong, Enze Xie, Wojciech Matusik, Tat-Seng Chua, Daquan Zhou†
 
-<span style="font-size:0.85em">(\* stands for equal contribution)</span>
+<span style="font-size:0.85em">(\* stands for equal contribution, † stands for corresponding author)</span>
 
 [**Paper**](https://arxiv.org/abs/2606.20521) \| [**Code**](https://github.com/DAGroup-PKU/HumanNet/)
 
 With a carefully designed filtering and labeling pipeline, we show that egocentric human video is a scalable pretraining source for embodied foundation models that surpasses real-robot data, especially in out-of-distribution generalization.
+
+</div>
+</div>
+
+## LLM & Applications
+
+<div class='paper-box'><div class='paper-box-image'><div><div class="badge">Tech Report</div><img src='images/multiratio-conceptmoe.png' alt="paper thumbnail" width="100%"></div></div>
+<div class='paper-box-text' markdown="1">
+
+**[One Model, Multiple Compute Budgets: Multi-Ratio ConceptMoE for Flexible Compute Across Turns](https://arxiv.org/abs/2610.14074)**
+
+Yiyang Fu, Zihao Huang, Dongchen Han, **Shukai Gong**, Zhen Dong, Qiyang Min†, Daquan Zhou†
+
+<span style="font-size:0.85em">(† stands for corresponding author)</span>
+
+[**Paper**](https://arxiv.org/abs/2610.14074) \| [**Code**](https://github.com/DAGroup-PKU/Multi-Ratio-ConceptMoE) \| [**Project Page**](https://dagroup-pku.github.io/Multi-Ratio-ConceptMoE/)
+
+We propose Multi-Ratio ConceptMoE, a single shared model that supports multiple token-to-concept compression ratios (CR2/CR4/CR8), so that compute budgets can be flexibly assigned across turns within one context. Under a turn-wise budget schedule, it reduces FLOPs by 78.4% and 46.9% on CodeChat and CoSQL compared with routing among independent models.
 
 </div>
 </div>
@@ -83,7 +107,7 @@ With a carefully designed filtering and labeling pipeline, we show that egocentr
 
 **Shukai Gong**\*, Yiyang Fu\*, Fengyuan Ran\*, Quyu Kong, Feng Zhou†
 
-<span style="font-size:0.85em">(\* stands for equal contribution)</span>
+<span style="font-size:0.85em">(\* stands for equal contribution, † stands for corresponding author)</span>
 
 [**Paper**](https://arxiv.org/pdf/2507.09252) \| [**Code**](https://github.com/GONGSHUKAI/tppsd)
 
@@ -100,7 +124,7 @@ TPP-SD, which maintains the identical output distribution as autoregressive samp
 
 Shen Yuan\*, **Shukai Gong**\*, Hongteng Xu†
 
-<span style="font-size:0.85em">(\* stands for equal contribution)</span>
+<span style="font-size:0.85em">(\* stands for equal contribution, † stands for corresponding author)</span>
 
 [**Paper**](https://dl.acm.org/doi/10.1145/3701716.3715295) \| [**Dataset**](https://zenodo.org/records/14396156)
 
@@ -111,7 +135,16 @@ we construct an information-enriched chemical reaction dataset called USPTO-LLM,
 
 # Experiences
 
-<div class='paper-box'><div class='paper-box-image' style="text-align: center;"><div><div class="badge"></div><img src='images/bytedance.jpg' alt="sym" style="display: inline-block; width: 80%;"></div></div>
+<div class='paper-box'><div class='paper-box-image'><div><div class="badge"></div><img src='images/x2robot.jpg' alt="company logo" class="logo"></div></div>
+<div class='paper-box-text' markdown="1">
+
+**Research Intern, X Square Robot, Shenzhen, 2026.10 - Now**
+
+Research on advances in robotics.
+
+</div>
+</div>
+<div class='paper-box'><div class='paper-box-image'><div><div class="badge"></div><img src='images/bytedance.jpg' alt="company logo" class="logo"></div></div>
 <div class='paper-box-text' markdown="1">
 
 **Research Intern, Bytedance Seed, Beijing, 2026.04 - 2026.07**
@@ -120,13 +153,27 @@ Research on physical video generation and embodied AI.
 
 </div>
 </div>
-<div class='paper-box'><div class='paper-box-image' style="text-align: center;"><div><div class="badge"></div><img src='images/pixverse.jpg' alt="sym" style="display: inline-block; width: 80%;"></div></div>
+<div class='paper-box'><div class='paper-box-image'><div><div class="badge"></div><img src='images/pixverse.jpg' alt="company logo" class="logo"></div></div>
 <div class='paper-box-text' markdown="1">
 
 **Research Intern, Pixverse, Beijing, 2025.07 - 2026.01**
 
 Research on the acceleration and long-video adaption of visual-audio joint generation.
 
+
+</div>
+</div>
+
+# Projects
+
+<div class='paper-box'><div class='paper-box-image'><div><div class="badge"></div><img src='images/researchboost-agent.jpg' alt="project thumbnail"></div></div>
+<div class='paper-box-text' markdown="1">
+
+**[AI4AI for Anything](https://github.com/AI4AI-for-Anything)**
+
+[**Code**](https://github.com/AI4AI-for-Anything/ResearchBoost-Agent) \| [**Blog**](https://ydove0324.github.io/hx_resume/blog/researchboost/)
+
+AI that accelerates the research that advances AI. ResearchBoost-Agent autonomously profiles, optimizes, and validates AI training code against a frozen judge, delivering massive training speedups on tasks covering Robotics, Diffusion Models, LLM, etc., while keeping results statistically equivalent.
 
 </div>
 </div>

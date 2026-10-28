@@ -121,3 +121,41 @@ h1:before, .anchor:before {
     background-color: #00369f;
     font-size: .8em;
 }
+
+// Live GitHub star / dataset download counter next to paper links (_includes/stat-tag.html)
+a.stat-tag {
+    display: none;
+    // baseline-aligned smaller text sits low next to the links; nudge up without growing the line box
+    position: relative;
+    top: -.13em;
+    margin-left: .4em;
+    font-size: .75em;
+    line-height: 1.7;
+    white-space: nowrap;
+    color: #24292f;
+    border: 1px solid #d0d7de;
+    border-radius: 4px;
+    overflow: hidden;
+    transition: border-color .15s;
+    &, &:hover {
+        text-decoration: none;
+    }
+    &:hover {
+        color: #24292f;
+        border-color: #8c959f;
+    }
+    &.is-ready {
+        display: inline-flex;
+    }
+    .stat-tag-label {
+        padding: 0 .55em;
+        font-weight: bold;
+        background-color: #f6f8fa;
+        border-right: 1px solid #d0d7de;
+    }
+    .stat-tag-count {
+        padding: 0 .55em;
+        background-color: #fff;
+        font-variant-numeric: tabular-nums;
+    }
+}

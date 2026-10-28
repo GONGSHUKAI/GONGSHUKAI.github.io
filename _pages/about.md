@@ -44,7 +44,7 @@ My name is Shukai Gong (龚舒凯). I'm a first-year MPhil student in Computer S
 
 <span style="font-size:0.85em">(\* stands for equal contribution, † stands for corresponding author)</span>
 
-[**Paper**](https://arxiv.org/abs/2610.02368) \| [**Code**](https://github.com/DAGroup-PKU/ViGAR) \| [**Model**](https://huggingface.co/DAGroup-PKU/ViGAR) \| [**Project Page**](https://dagroup-pku.github.io/ViGAR/)
+[**Paper**](https://arxiv.org/abs/2610.02368) \| [**Code**](https://github.com/DAGroup-PKU/ViGAR) \| [**Model**](https://huggingface.co/DAGroup-PKU/ViGAR) \| [**Project Page**](https://dagroup-pku.github.io/ViGAR/) {% include stat-tag.html github="DAGroup-PKU/ViGAR" %}
 
 We propose ViGAR, a hierarchical world-action model that factorizes long-horizon manipulation into visual subgoal planning and subgoal execution on a shared pretrained world model. ViGAR achieves strong compositional manipulation in both simulation and the real world, and generalizes to unseen tasks via in-context steering with a goal image, without any policy parameter updates.
 
@@ -60,7 +60,7 @@ Yiyang Fu, Chubin Zhang, **Shukai Gong**, Yufan Deng, Kaiwei Sun, Qiyang Min, Qi
 
 <span style="font-size:0.85em">(‡ stands for project leader, † stands for corresponding author)</span>
 
-[**Paper**](https://arxiv.org/abs/2605.18287) \| [**Code**](https://github.com/DAGroup-PKU/HumanNet/blob/main/docs/stablevla.md) \| [**Model**](https://huggingface.co/DAGroup-PKU/StableVLA) \| [**Project Page**](https://dagroup-pku.github.io/StableVLA/)
+[**Paper**](https://arxiv.org/abs/2605.18287) \| [**Code**](https://github.com/DAGroup-PKU/HumanNet/blob/main/docs/stablevla.md) \| [**Model**](https://huggingface.co/DAGroup-PKU/StableVLA) \| [**Project Page**](https://dagroup-pku.github.io/StableVLA/) {% include stat-tag.html github="DAGroup-PKU/StableVLA" %}
 
 We propose a lightweight adapter module for VLA, IB-Adapter, which selectively filters potential noise from visual inputs. Without requiring any extra data or augmentation strategies, IB-Adapter consistently improves the robostness of VLA, while adding fewer than 10M parameters.
 </div>
@@ -75,7 +75,7 @@ Juncheng Ma\*, Jianxin Bi\*, Yufan Deng, Xuanran Zhai, Kewei Zhang, Ye Huang, Bo
 
 <span style="font-size:0.85em">(\* stands for equal contribution, † stands for corresponding author)</span>
 
-[**Paper**](https://arxiv.org/abs/2606.20521) \| [**Code**](https://github.com/DAGroup-PKU/HumanNet/)
+[**Paper**](https://arxiv.org/abs/2606.20521) \| [**Code**](https://github.com/DAGroup-PKU/HumanNet/) {% include stat-tag.html github="DAGroup-PKU/HumanNet" %}
 
 With a carefully designed filtering and labeling pipeline, we show that egocentric human video is a scalable pretraining source for embodied foundation models that surpasses real-robot data, especially in out-of-distribution generalization.
 
@@ -93,7 +93,7 @@ Yiyang Fu, Zihao Huang, Dongchen Han, **Shukai Gong**, Zhen Dong, Qiyang Min†,
 
 <span style="font-size:0.85em">(† stands for corresponding author)</span>
 
-[**Paper**](https://arxiv.org/abs/2610.14074) \| [**Code**](https://github.com/DAGroup-PKU/Multi-Ratio-ConceptMoE) \| [**Project Page**](https://dagroup-pku.github.io/Multi-Ratio-ConceptMoE/)
+[**Paper**](https://arxiv.org/abs/2610.14074) \| [**Code**](https://github.com/DAGroup-PKU/Multi-Ratio-ConceptMoE) \| [**Project Page**](https://dagroup-pku.github.io/Multi-Ratio-ConceptMoE/) {% include stat-tag.html github="DAGroup-PKU/Multi-Ratio-ConceptMoE" %}
 
 We propose Multi-Ratio ConceptMoE, a single shared model that supports multiple token-to-concept compression ratios (CR2/CR4/CR8), so that compute budgets can be flexibly assigned across turns within one context. Under a turn-wise budget schedule, it reduces FLOPs by 78.4% and 46.9% on CodeChat and CoSQL compared with routing among independent models.
 
@@ -109,7 +109,7 @@ We propose Multi-Ratio ConceptMoE, a single shared model that supports multiple 
 
 <span style="font-size:0.85em">(\* stands for equal contribution, † stands for corresponding author)</span>
 
-[**Paper**](https://arxiv.org/pdf/2507.09252) \| [**Code**](https://github.com/GONGSHUKAI/tppsd)
+[**Paper**](https://arxiv.org/pdf/2507.09252) \| [**Code**](https://github.com/GONGSHUKAI/tppsd) {% include stat-tag.html github="GONGSHUKAI/tppsd" %}
 
 By identifying the structural similarities between thinning algorithms for TPPs and speculative decoding for language models, we develop
 TPP-SD, which maintains the identical output distribution as autoregressive sampling while achieving 2-6× speedup on both synthetic and real datasets.
@@ -126,7 +126,7 @@ Shen Yuan\*, **Shukai Gong**\*, Hongteng Xu†
 
 <span style="font-size:0.85em">(\* stands for equal contribution, † stands for corresponding author)</span>
 
-[**Paper**](https://dl.acm.org/doi/10.1145/3701716.3715295) \| [**Dataset**](https://zenodo.org/records/14396156)
+[**Paper**](https://dl.acm.org/doi/10.1145/3701716.3715295) \| [**Dataset**](https://zenodo.org/records/14396156) {% include stat-tag.html zenodo="14396156" %}
 
 we construct an information-enriched chemical reaction dataset called USPTO-LLM, which comprises over 247K chemical reactions extracted from the patent documents of USPTO encompassing abundant information on reaction conditions. Experiments show that USPTO-LLM helps pre-train the existing retrosynthesis methods and the condition information in the dataset helps improve the model performance.
 
@@ -169,9 +169,9 @@ Research on the acceleration and long-video adaption of visual-audio joint gener
 <div class='paper-box'><div class='paper-box-image'><div><div class="badge"></div><img src='images/researchboost-agent.jpg' alt="project thumbnail"></div></div>
 <div class='paper-box-text' markdown="1">
 
-**[AI4AI for Anything](https://github.com/AI4AI-for-Anything)**
+**[ResearchBoost-Agent](https://github.com/AI4AI-for-Anything/ResearchBoost-Agent)**
 
-[**Code**](https://github.com/AI4AI-for-Anything/ResearchBoost-Agent) \| [**Blog**](https://ydove0324.github.io/hx_resume/blog/researchboost/)
+[**Code**](https://github.com/AI4AI-for-Anything/ResearchBoost-Agent) \| [**Blog**](https://ydove0324.github.io/hx_resume/blog/researchboost/) {% include stat-tag.html github="AI4AI-for-Anything/ResearchBoost-Agent" %}
 
 AI that accelerates the research that advances AI. ResearchBoost-Agent autonomously profiles, optimizes, and validates AI training code against a frozen judge, delivering massive training speedups on tasks covering Robotics, Diffusion Models, LLM, etc., while keeping results statistically equivalent.
 

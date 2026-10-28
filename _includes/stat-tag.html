@@ -1,0 +1,9 @@
+{%- comment -%}
+  Live counter tag next to the paper links. Count is filled in by fetch_repo_stats.html.
+  Usage: {% include stat-tag.html github="owner/repo" %} or {% include stat-tag.html zenodo="record-id" %}
+{%- endcomment -%}
+{%- if include.github -%}
+<a class="stat-tag" href="https://github.com/{{ include.github }}" data-github="{{ include.github }}"><span class="stat-tag-label"><i class="fab fa-github" aria-hidden="true"></i> Star</span><span class="stat-tag-count"></span></a>
+{%- elsif include.zenodo -%}
+<a class="stat-tag" href="https://zenodo.org/records/{{ include.zenodo }}" data-zenodo="{{ include.zenodo }}"><span class="stat-tag-label"><i class="fas fa-download" aria-hidden="true"></i> Downloads</span><span class="stat-tag-count"></span></a>
+{%- endif -%}

@@ -1,0 +1,91 @@
+<script>
+    (function () {
+        /* Live GitHub stars / Zenodo downloads for .stat-tag elements (see stat-tag.html).
+           The last known value is cached in localStorage so the tag shows up instantly and
+           survives API failures (e.g. GitHub's 60 req/hour anonymous limit). */
+        var CACHE_PREFIX = 'stat-tag:';
+
+        function getJSON(url) {
+            return fetch(url).then(function (r) {
+                if (!r.ok) throw new Error(url + ' -> ' + r.status);
+                return r.json();
+            });
+        }
+
+        /* shields.io returns pre-formatted values such as "252k" */
+        function parseCompact(s) {
+            var m = /^([\d.]+)\s*([kM]?)$/.exec(String(s).trim());
+            if (!m) return NaN;
+            return Math.round(parseFloat(m[1]) * ({ k: 1e3, M: 1e6 }[m[2]] || 1));
+        }
+
+        function compact(n) {
+            if (n < 1000) return String(n);
+            if (n < 1e6) return (n / 1e3).toFixed(n < 1e4 ? 1 : 0).replace(/\.0$/, '') + 'k';
+            return (n / 1e6).toFixed(1).replace(/\.0$/, '') + 'M';
+        }
+
+        var SOURCES = {
+            github: {
+                fetch: function (repo) {
+                    return getJSON('https://api.github.com/repos/' + repo)
+                        .then(function (d) { return d.stargazers_count; })
+                        .catch(function () {
+                            return getJSON('https://img.shields.io/github/stars/' + repo + '.json')
+                                .then(function (d) { return parseCompact(d.value); });
+                        });
+                },
+                title: function (n) { return n.toLocaleString('en-US') + ' stars on GitHub'; }
+            },
+            zenodo: {
+                /* unique downloads across all versions, the number shown on the Zenodo record page */
+                fetch: function (id) {
+                    return getJSON('https://zenodo.org/api/records/' + id)
+                        .then(function (d) { return d.stats.unique_downloads; });
+                },
+                title: function (n) { return n.toLocaleString('en-US') + ' downloads on Zenodo'; }
+            }
+        };
+
+        function readCache(key) {
+            try {
+                var v = JSON.parse(localStorage.getItem(CACHE_PREFIX + key));
+                return v && typeof v.n === 'number' ? v.n : null;
+            } catch (e) { return null; }
+        }
+
+        function writeCache(key, n) {
+            try { localStorage.setItem(CACHE_PREFIX + key, JSON.stringify({ n: n, t: Date.now() })); } catch (e) {}
+        }
+
+        function render(els, title, n) {
+            els.forEach(function (el) {
+                el.querySelector('.stat-tag-count').textContent = compact(n);
+                el.title = title(n);
+                el.classList.add('is-ready');
+            });
+        }
+
+        /* group tags by source so a repo shared by several papers is fetched once */
+        var groups = {};
+        document.querySelectorAll('.stat-tag').forEach(function (el) {
+            Object.keys(SOURCES).forEach(function (type) {
+                var id = el.getAttribute('data-' + type);
+                if (!id) return;
+                var key = type + ':' + id;
+                (groups[key] = groups[key] || { type: type, id: id, els: [] }).els.push(el);
+            });
+        });
+
+        Object.keys(groups).forEach(function (key) {
+            var g = groups[key], src = SOURCES[g.type];
+            var cached = readCache(key);
+            if (cached !== null) render(g.els, src.title, cached);
+            src.fetch(g.id).then(function (n) {
+                if (typeof n !== 'number' || !isFinite(n)) return;
+                render(g.els, src.title, n);
+                writeCache(key, n);
+            }).catch(function (e) { console.warn('stat-tag:', key, e); });
+        });
+    })();
+</script>
